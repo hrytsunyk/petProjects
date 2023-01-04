@@ -1,0 +1,56 @@
+.body_clone {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo_container {
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.imgs {
+    display: flex;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+img {
+    width: 800px;
+    height: 550px;
+}
+
+.arrow_right, .arrow_left {
+width: 50px;
+    height: 50px;
+    background: black;
+    color: #f4fffd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.arrow_left {
+    position: relative;
+    left: 25px;
+}
+.arrow_right {
+    position: relative;
+    right: 25px;
+}
+
+.arrow_right:hover, .arrow_left:hover{
+    opacity: 80%;
+    cursor: pointer;
+}
+
+
+.arrow_right:active, .arrow_left:active{
+    background: #ffffff;
+    color: black;
+}
