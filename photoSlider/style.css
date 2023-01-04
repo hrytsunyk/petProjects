@@ -13,15 +13,17 @@
     overflow: hidden;
 }
 
-.imgs {
+.images {
+    width: 100%;
     display: flex;
-    margin-left: 0;
-    margin-right: 0;
+    transition: 500ms;
+
 }
 
 img {
     width: 800px;
     height: 550px;
+
 }
 
 .arrow_right, .arrow_left {
