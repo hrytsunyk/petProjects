@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0299a138-490b-4114-b81d-39129d24bcbd" name="Changes" comment="add photo and buttons">
+    <list default="true" id="0299a138-490b-4114-b81d-39129d24bcbd" name="Changes" comment="working buttons">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/photoSlider/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/photoSlider/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/photoSlider/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/photoSlider/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/photoSlider/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/photoSlider/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +56,7 @@
       <option name="presentableId" value="Default" />
       <updated>1672776470402</updated>
       <workItem from="1672776471894" duration="7654000" />
-      <workItem from="1672785209161" duration="15634000" />
+      <workItem from="1672785209161" duration="15944000" />
     </task>
     <task id="LOCAL-00001" summary="madeStopwatch">
       <created>1672790410660</created>
@@ -81,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672837075008</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="working buttons">
+      <created>1672849773299</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1672849773299</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,6 +106,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="madeStopwatch" />
     <MESSAGE value="add photo and buttons" />
-    <option name="LAST_COMMIT_MESSAGE" value="add photo and buttons" />
+    <MESSAGE value="working buttons" />
+    <option name="LAST_COMMIT_MESSAGE" value="working buttons" />
   </component>
 </project>
