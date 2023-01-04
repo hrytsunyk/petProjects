@@ -25,7 +25,7 @@ function timer() {
     if (sds < 10) {sds = '0' + sds};
 
 time_item.innerHTML = `${hrs}:${mins}:${sds}`;
-}
+};
 
 function start() {
     if (interval) {
