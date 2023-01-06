@@ -18,11 +18,13 @@
     display: flex;
     transition: 500ms;
 
+
 }
 
 img {
     width: 800px;
     height: 550px;
+    display: block;
 
 }
 
@@ -54,6 +56,6 @@ width: 50px;
 
 
 .arrow_right:active, .arrow_left:active{
-    background: #ffffff;
+    background: transparent;
     color: black;
 }

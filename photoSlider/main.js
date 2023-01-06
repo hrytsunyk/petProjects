@@ -9,6 +9,7 @@ const images = document.querySelector('.images');
 for (let i = 0, filename = 1; i < imgCount; i++, filename++) {
 let img = document.createElement('img');
     img.src = `${imgDirect}/${filename}.${jpg}`;
+    img.alt = 'img';
     images.appendChild(img);
 }
 
@@ -20,11 +21,11 @@ document.querySelector('.arrow_left').onclick = () => {
         position-=imgWidth;
         images.style.marginLeft = -position +'px';
     }
-}
+};
 
-document.querySelector('.arrow_right').onclick =() => {
-    if (position < imgTotalWidth) {
-        position+=imgWidth;
-        images.style.marginLeft = -position +'px';
+ document.querySelector('.arrow_right').onclick =() => {
+    if (position < imgTotalWidth - 1600) {
+        position += imgWidth;
+        images.style.marginLeft = -position + 'px';
     }
-}
+};
