@@ -40,11 +40,16 @@ let users = [user1,user2,user3,user4,user5,user6,user7,user8,user9,user10];
 //
 //     }
 // }
+
+
+// let i = 0;
 //
+// while (i < users.length) {
+//     console.log(users[i])
+//     i++
+// }
 
-let i = 0;
-
-while (i < users.length) {
-    console.log(users[i])
-    i++
-}
+let deepCopy = JSON.stringify(users)
+// console.log(deepCopy)
+let copied = JSON.parse(deepCopy)
+console.log(copied)
