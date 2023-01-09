@@ -1,4 +1,5 @@
 const time_item = document.querySelector('.timer .time');
+const time_msds = document.querySelector('.timer .msds');
 const start_btn = document.querySelector('.start')
 const stop_btn = document.querySelector('.stop')
 const reset_btn = document.querySelector('.reset')
@@ -11,7 +12,7 @@ stop_btn.addEventListener('click', stop);
 reset_btn.addEventListener('click', reset)
 
 function timer() {
-    debugger
+
     seconds++;
     let hrs = Math.floor(seconds/3600);
     // console.log(hrs);
@@ -27,11 +28,13 @@ function timer() {
 time_item.innerHTML = `${hrs}:${mins}:${sds}`;
 };
 
+
 function start() {
     if (interval) {
         return
     }
     interval = setInterval(timer, 1000);
+
 };
 
 function stop() {
@@ -44,3 +47,7 @@ function reset() {
     seconds= 0;
     time_item.innerHTML = '00:00:00'
 };
+
+let today = new Date();
+let milisec = today.getMilliseconds()
+console.log(milisec)

@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0299a138-490b-4114-b81d-39129d24bcbd" name="Changes" comment="working buttons with opacity 80">
+      <change afterPath="$PROJECT_DIR$/training/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/photoSlider/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/photoSlider/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/photoSlider/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/photoSlider/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/photoSlider/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/photoSlider/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stopWatch/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/stopWatch/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,16 +34,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/serhiihrytsunyk/IdeaProjects/petProjects/photoSlider/imgs",
-    "list.type.of.created.stylesheet": "CSS"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/serhiihrytsunyk/IdeaProjects/petProjects/photoSlider/imgs&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/photoSlider/imgs" />
@@ -58,7 +58,8 @@
       <option name="presentableId" value="Default" />
       <updated>1672776470402</updated>
       <workItem from="1672776471894" duration="7654000" />
-      <workItem from="1672785209161" duration="20716000" />
+      <workItem from="1672785209161" duration="32217000" />
+      <workItem from="1673275583459" duration="956000" />
     </task>
     <task id="LOCAL-00001" summary="madeStopwatch">
       <created>1672790410660</created>
@@ -95,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672849979133</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="working buttons with opacity 80">
+      <created>1673047143213</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1673047143213</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
