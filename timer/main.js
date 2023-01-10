@@ -1,27 +1,37 @@
-let timer = document.querySelector('.timer .time')
+//dial
 let hours = document.querySelector('.hours');
 let minutes = document.querySelector('.minutes');
 let seconds = document.querySelector('.seconds');
 
+//buttons
 let start_btn = document.querySelector('.buttons .start');
 let stop_btn = document.querySelector('.buttons .stop');
-let reset_btn = document.querySelector('.buttons .reset');
-let set_btn = document.querySelector('.buttons .time_setter');
 
-let secs = 0;
-let interval = null;
+//getActualTime
+let time;
+start_btn.addEventListener('click', function() {
 
-function timer() {
-    secs++
-    let hh = Math.floor(secs/3600)
-    let mm = Math.floor(secs -(hh*3600)/60)
-    let ss = secs % 60;
-    timer.innerHTML = `${hh}:${mm}:${ss}`
-}
+    let time = setInterval(function() {
+        let date = new Date;
 
-start_btn.onclick = () => {
-    if (interval){
-        return
-    }
-    setInterval(timer, 1000)
-}
+        let hrs = date.getHours()
+        let mts = date.getMinutes()
+        let sds = date.getSeconds()
+
+
+        let h = hrs < 10 ? '0' + hrs : hrs;
+        let m = mts < 10 ? '0' + mts : mts;
+        let s = sds < 10 ? '0' + sds : sds;
+
+        hours.innerHTML = `${h}`
+        minutes.innerHTML = `${m}`
+        seconds.innerHTML = `${s}`
+    }, 1000);
+
+
+stop_btn.addEventListener('click', () => {
+    clearInterval(time);
+})
+
+});
+

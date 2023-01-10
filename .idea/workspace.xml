@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0299a138-490b-4114-b81d-39129d24bcbd" name="Changes" comment="while training">
-      <change afterPath="$PROJECT_DIR$/timer/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timer/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timer/timer.html" afterDir="false" />
+    <list default="true" id="0299a138-490b-4114-b81d-39129d24bcbd" name="Changes" comment="deep copy">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stopWatch/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/stopWatch/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stopWatch/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/stopWatch/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timer/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/timer/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timer/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/timer/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timer/timer.html" beforeDir="false" afterPath="$PROJECT_DIR$/timer/timer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/training/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/training/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,17 +37,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/serhiihrytsunyk/IdeaProjects/petProjects/photoSlider/imgs",
-    "list.type.of.created.stylesheet": "CSS",
-    "settings.editor.selected.configurable": "editor.preferences.completion"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/serhiihrytsunyk/IdeaProjects/petProjects/photoSlider/imgs&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/photoSlider/imgs" />
@@ -63,7 +64,8 @@
       <workItem from="1672776471894" duration="7654000" />
       <workItem from="1672785209161" duration="32217000" />
       <workItem from="1673275583459" duration="3392000" />
-      <workItem from="1673284033416" duration="3731000" />
+      <workItem from="1673284033416" duration="4246000" />
+      <workItem from="1673300929655" duration="12270000" />
     </task>
     <task id="LOCAL-00001" summary="madeStopwatch">
       <created>1672790410660</created>
@@ -121,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673279934583</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="deep copy">
+      <created>1673297543578</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1673297543578</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +154,19 @@
     <MESSAGE value="working buttons with opacity 80" />
     <MESSAGE value="training with arrays" />
     <MESSAGE value="while training" />
-    <option name="LAST_COMMIT_MESSAGE" value="while training" />
+    <MESSAGE value="deep copy" />
+    <option name="LAST_COMMIT_MESSAGE" value="deep copy" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/training/main.js</url>
+          <line>76</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

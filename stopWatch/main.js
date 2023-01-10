@@ -47,7 +47,3 @@ function reset() {
     seconds= 0;
     time_item.innerHTML = '00:00:00'
 };
-
-let today = new Date();
-let milisec = today.getMilliseconds()
-console.log(milisec)
