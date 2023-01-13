@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0299a138-490b-4114-b81d-39129d24bcbd" name="Changes" comment="deep copy">
+    <list default="true" id="0299a138-490b-4114-b81d-39129d24bcbd" name="Changes" comment="headbreaking recursion 1 click work">
+      <change afterPath="$PROJECT_DIR$/training/rec.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/recursion.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/recursion.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stopWatch/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/stopWatch/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stopWatch/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/stopWatch/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/timer/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/timer/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/timer/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/timer/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/timer/timer.html" beforeDir="false" afterPath="$PROJECT_DIR$/timer/timer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/training/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/training/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +65,12 @@
       <workItem from="1672785209161" duration="32217000" />
       <workItem from="1673275583459" duration="3392000" />
       <workItem from="1673284033416" duration="4246000" />
-      <workItem from="1673300929655" duration="12270000" />
+      <workItem from="1673300929655" duration="12993000" />
+      <workItem from="1673388116657" duration="410000" />
+      <workItem from="1673439675129" duration="9379000" />
+      <workItem from="1673555523800" duration="17208000" />
+      <workItem from="1673617916515" duration="418000" />
+      <workItem from="1673618482625" duration="2719000" />
     </task>
     <task id="LOCAL-00001" summary="madeStopwatch">
       <created>1672790410660</created>
@@ -130,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673297543578</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="actual time code">
+      <created>1673371695529</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1673371695529</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,18 +167,9 @@
     <MESSAGE value="training with arrays" />
     <MESSAGE value="while training" />
     <MESSAGE value="deep copy" />
-    <option name="LAST_COMMIT_MESSAGE" value="deep copy" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/training/main.js</url>
-          <line>76</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="actual time code" />
+    <MESSAGE value="headbreaking recursion" />
+    <MESSAGE value="headbreaking recursion 1 click work" />
+    <option name="LAST_COMMIT_MESSAGE" value="headbreaking recursion 1 click work" />
   </component>
 </project>
