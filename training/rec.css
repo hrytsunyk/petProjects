@@ -1,7 +1,9 @@
 .not_active {
     border: 1px solid #465362;
+    margin: 5px;
 }
 .active {
     border: 1px solid #465362;
+    margin: 5px;
     background: red;
 }

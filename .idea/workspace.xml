@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0299a138-490b-4114-b81d-39129d24bcbd" name="Changes" comment="headbreaking recursion 1 click work">
-      <change afterPath="$PROJECT_DIR$/training/rec.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training/recursion.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training/recursion.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stopWatch/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/stopWatch/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/timer/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/timer/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/training/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/training/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training/rec.css" beforeDir="false" afterPath="$PROJECT_DIR$/training/rec.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training/recursion.js" beforeDir="false" afterPath="$PROJECT_DIR$/training/recursion.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +66,7 @@
       <workItem from="1673439675129" duration="9379000" />
       <workItem from="1673555523800" duration="17208000" />
       <workItem from="1673617916515" duration="418000" />
-      <workItem from="1673618482625" duration="2719000" />
+      <workItem from="1673618482625" duration="18126000" />
     </task>
     <task id="LOCAL-00001" summary="madeStopwatch">
       <created>1672790410660</created>
@@ -142,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673371695529</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="headbreaking recursion 1 click work">
+      <created>1673630229455</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1673630229455</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
