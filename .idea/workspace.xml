@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0299a138-490b-4114-b81d-39129d24bcbd" name="Changes" comment="headbreaking recursion 1 click work">
+    <list default="true" id="0299a138-490b-4114-b81d-39129d24bcbd" name="Changes" comment="one more time">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/training/rec.css" beforeDir="false" afterPath="$PROJECT_DIR$/training/rec.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training/recursion.html" beforeDir="false" afterPath="$PROJECT_DIR$/training/recursion.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/training/recursion.js" beforeDir="false" afterPath="$PROJECT_DIR$/training/recursion.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +66,7 @@
       <workItem from="1673439675129" duration="9379000" />
       <workItem from="1673555523800" duration="17208000" />
       <workItem from="1673617916515" duration="418000" />
-      <workItem from="1673618482625" duration="18126000" />
+      <workItem from="1673618482625" duration="21678000" />
     </task>
     <task id="LOCAL-00001" summary="madeStopwatch">
       <created>1672790410660</created>
@@ -145,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673630229455</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="one more time">
+      <created>1673651127281</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1673651127281</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,6 +180,7 @@
     <MESSAGE value="actual time code" />
     <MESSAGE value="headbreaking recursion" />
     <MESSAGE value="headbreaking recursion 1 click work" />
-    <option name="LAST_COMMIT_MESSAGE" value="headbreaking recursion 1 click work" />
+    <MESSAGE value="one more time" />
+    <option name="LAST_COMMIT_MESSAGE" value="one more time" />
   </component>
 </project>
