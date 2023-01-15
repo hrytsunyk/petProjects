@@ -13,6 +13,7 @@
 
 
 
+
 function getElement(elDOM) {
     let children = elDOM.children;
 
@@ -20,7 +21,7 @@ function getElement(elDOM) {
     for (let i = 0; i < children.length; i++) {
         getElement(children[i])
 
-        if (children[i].localName === 'li'){
+        if (children[i].localName === 'li' && children[i]){
             children[i].classList.add('not_active')
             arrLi.push(children[i])
 
@@ -30,19 +31,21 @@ function getElement(elDOM) {
 
 getElement(iterOl);
 
-    let j = 0;
+let j = 0;
 
-        next_btn.onclick = () => {
-            arrLi[j]?.classList.replace('not_active', 'active');
-            j++
-        }
-        back_btn.onclick = () => {
-            arrLi[j]?.classList.replace('active', 'not_active');
-            j--
-        }
+    let next = next_btn.onclick = () => {
+        arrLi[j]?.classList.replace('not_active', 'active');
+        j++
+        console.log(arrLi[j])
+
+    }
+
+    const prev = back_btn.onclick = () => {
+        arrLi[j]?.classList.replace('active', 'not_active');
+        j--
+        console.log(arrLi[j])
+
+    }
 
 
-
-
-        console.log(arrLi)
 
