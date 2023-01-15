@@ -8,14 +8,11 @@
 
     const iterOl = document.querySelector('.for-iteration');
 
-
     const arrLi = [];
 
 
-
-
 function getElement(elDOM) {
-    let children = elDOM.children;
+    const children = elDOM.children;
 
 
     for (let i = 0; i < children.length; i++) {
@@ -33,19 +30,13 @@ getElement(iterOl);
 
 let j = 0;
 
-    let next = next_btn.onclick = () => {
-        arrLi[j]?.classList.replace('not_active', 'active');
-        j++
-        console.log(arrLi[j])
-
-    }
-
-    const prev = back_btn.onclick = () => {
-        arrLi[j]?.classList.replace('active', 'not_active');
-        j--
-        console.log(arrLi[j])
-
-    }
+        next_btn.onclick = () => {
+                arrLi[j]?.classList.replace('not_active', 'active');
+                j++
+        };
 
 
-
+        back_btn.onclick = () => {
+              arrLi[j]?.classList.replace('active', 'not_active');
+              j--
+        };
